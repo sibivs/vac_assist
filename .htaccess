@@ -1,0 +1,8 @@
+Options -Indexes
+# Remove index.php
+RewriteEngine on
+RewriteBase /vac_assist
+RewriteBase /vac_assist/admin
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
