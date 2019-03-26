@@ -1,0 +1,1498 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+html {
+	background: #FFFFF;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	height: 100%;
+	display: table;
+	float: middle;
+	position: relative;
+}
+
+a {color: #1dd678; text-decoration:none; cursor: pointer; }
+
+a:hover { color: #18ac61; text-decoration:underline; }
+
+#templatemo_container {
+	width: 1200px;
+	margin: auto;
+	position: relative;
+	height: 800px;
+	min-height: 750px;
+}
+
+#templatemo_header {
+	width: 100%;
+	height: 110px;
+	background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(94,150,168,1) 52%, rgba(43,95,130,1) 72%, rgba(2,13,61,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(15%, rgba(255,255,255,1)), color-stop(52%, rgba(94,150,168,1)), color-stop(72%, rgba(43,95,130,1)), color-stop(100%, rgba(2,13,61,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(94,150,168,1) 52%, rgba(43,95,130,1) 72%, rgba(2,13,61,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(94,150,168,1) 52%, rgba(43,95,130,1) 72%, rgba(2,13,61,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(94,150,168,1) 52%, rgba(43,95,130,1) 72%, rgba(2,13,61,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(94,150,168,1) 52%, rgba(43,95,130,1) 72%, rgba(2,13,61,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#020d3d', GradientType=1 );
+	margin: 0;
+	padding: 0;
+}
+
+/* Login Form */
+#templatemo_login {
+	float: middle;
+	width: 650px;
+	height: 400px;
+	margin: 5% auto;
+	text-align:center;
+	background-image:url(images/templatemo_login-bannar.jpg);
+	border-radius: 1em;
+}
+#templatemo_login label {
+	color: #37b2f8;
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 5px 0 0;
+	padding: 0;
+	display: block;
+	float: middle;
+}
+
+
+#templatemo_userinfo {
+        float: right;
+        width: 399px;
+        height: 35px;
+		padding-bottom: 15px;
+        margin: 0 0 0 0;
+}
+#templatemo_userinfo label {
+        color: #37b2f8;
+        font-family: Tahoma;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 5px 5px 0 0;
+        padding: 0;
+        display: block;
+        float: right;
+}
+
+
+.textfield {
+	width: 140px;
+	height: 25px;
+	background: url(images/templatemo_textbox.gif) no-repeat;
+	border: none;
+	color: #0f62b1;
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 10px 5px 0 0;
+	padding: 5px 5px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+
+#templatemo_login .button {
+	background: url(images/templatemo_button.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#templatemo_login .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_login .textfield {
+	width: 140px;
+	height: 25px;
+	background: url(images/templatemo_textbox.gif) no-repeat;
+	border: none;
+	color: #0f62b1;
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 10px 5px 0 0;
+	padding: 5px 5px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+#counterdelivery .textfield {
+	width: 140px;
+	height: 25px;
+	background: url(images/templatemo_textbox.gif) no-repeat;
+	border: none;
+	color: #0f62b1;
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 10px 5px 0 0;
+	padding: 5px 5px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.textfield_error {
+	width: 140px;
+	height: 25px;
+	border: 1px solid red;
+	color: red;
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 10px 5px 0 0;
+	padding: 5px 5px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+
+.button-a {
+	background: url(images/submit.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.button-next
+{
+	background:url(images/saveandaddnew.jpg) no-repeat;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 170px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.button-reset-a {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#counterdelivery .err_msg {
+	color: red;
+	visibility:hidden;
+}
+
+#rectification .err_msg {
+	color: red;
+	visibility:hidden;
+}
+
+
+#counterdelivery .inputtext {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 225px;
+	outline: none;
+}
+
+
+#counterdelivery-verify .button_a {
+	background: url(images/deliver_passport.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 116px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#counterdelivery-verify .button-reset_a {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+/*End Of Log In*/
+
+#templatemo_content {
+	
+	width: 100%;
+	height: 100%;
+	display:inline-block;
+}
+
+
+
+* html #templatemo_content {
+	
+	margin-top: -2px;
+
+}
+
+#templatemo_left_content {
+	
+	float: left;
+	display: inline;
+}
+
+/* Menu */
+
+.templatemo_menu {
+
+	float: left;
+	width: 211px;
+	margin: 30px 35px 35px 0;
+	padding: 0;
+	display: inline;
+
+}
+
+.templatemo_menu ul {
+
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 211px;
+
+}
+
+.templatemo_menu li a {
+
+	display: block;
+	height: 27px;
+	padding: 7px 0 0 50px;
+	margin: 5px 0 0 0;
+	color: #fff;
+	font-weight: bold;
+	background: url(images/templatemo_menu.gif) no-repeat;	
+	text-decoration:none;
+
+}
+
+.templatemo_menu li a:hover, .templatemo_menu li .current {
+
+	background: url(images/templatemo_menu_current.gif) no-repeat;	
+	text-decoration:none;
+	color: #00FFFF;
+
+}
+/* End of Menu */
+
+.templatemo_section {
+
+	float: right;
+	background: url(images/templatemo_left_section_button.jpg) bottom center no-repeat;
+	width: 300px;
+	margin: 0 30px 5px 0;
+	padding: 0;
+	display: inline;
+
+}
+
+
+* html .templatemo_section {
+	margin: 0;
+}
+
+.templatemo_icon_home {
+	
+	background: url(images/templatemo_icon_home.png) no-repeat top left;
+	width: 100%;
+	min-height: 95px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	
+}
+
+.templatemo_section h1{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #37b2f8;
+	margin: 0 0 0 85px;
+	padding: 0;
+}
+
+.templatemo_section p{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #94d8ff;
+	text-align: justify;
+	margin: 0 30px 0 85px;
+	padding: 0;
+	
+}
+.templatemo_icon_cube {
+	
+	background: url(images/templatemo_icon_cube.png) no-repeat top left;
+	width: 100%;
+	min-height: 109px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	
+}
+
+.templatemo_icon_tick {
+	
+	background: url(images/templatemo_icon_tick.png) no-repeat top left;
+	width: 100%;
+	min-height: 102px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	
+}
+
+.templatemo_section_bottom_line {
+	
+	clear: both;
+	background: url(images/templatemo_left_bottom.jpg) no-repeat center;
+	height: 1px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+#templatemo_right_content {
+	
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px 0 0 0;
+	height:100%;
+	width: auto;
+	
+}
+
+
+#templatemo_right_content #templatemo_content_area {
+
+	width: 100%;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+#templatemo_content_area .templatemo_title {
+	
+	width: 100%;
+	height: 15px;
+	color: #62c2ff;
+	background: url(images/templatemo_title_line.jpg) bottom repeat-x;
+	font-family: Tahoma;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 30px 0 0 0;
+	padding: 0 0 15px 0;
+	text-align:center;
+
+}
+
+
+#templatemo_content_area .inputtext {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 225px;
+	outline: none;
+}
+
+
+
+
+#templatemo_content_area p {
+	
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	margin: 6px 0 0 0;
+	padding: 0;
+	
+}
+
+#templatemo_content_area .thumbs {
+	
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 0 ;
+
+}
+
+#templatemo_content_area .thumbs img {
+	margin: 0 4px 0 4px;
+	padding: 0;
+}
+
+#templatemo_content_area .tablestyle {
+                
+	font-family: Arial;
+        font-size: 12px;
+        color: #62c2ff;
+        text-align: justify;
+        margin: 15px 0 0 0;
+        padding: 0;
+}
+
+#templatemo_content_area .button_add_bts {
+	background: url(images/templatemo_button_add_bts.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 105px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#templatemo_content_area .button {
+	background: url(images/templatemo_button_add.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#templatemo_content_area .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#templatemo_right_content #templatemo_content_area #PageHeading {
+	padding-top: 2px;
+	width: 960px;
+	height: 35px;
+	background: rgba(27,126,168,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(27,126,168,1) 0%, rgba(53,115,140,1) 32%, rgba(22,66,97,1) 72%, rgba(2,13,61,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(27,126,168,1)), color-stop(32%, rgba(53,115,140,1)), color-stop(72%, rgba(22,66,97,1)), color-stop(100%, rgba(2,13,61,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(27,126,168,1) 0%, rgba(53,115,140,1) 32%, rgba(22,66,97,1) 72%, rgba(2,13,61,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(27,126,168,1) 0%, rgba(53,115,140,1) 32%, rgba(22,66,97,1) 72%, rgba(2,13,61,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(27,126,168,1) 0%, rgba(53,115,140,1) 32%, rgba(22,66,97,1) 72%, rgba(2,13,61,1) 100%);
+background: radial-gradient(ellipse at center, rgba(27,126,168,1) 0%, rgba(53,115,140,1) 32%, rgba(22,66,97,1) 72%, rgba(2,13,61,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7ea8', endColorstr='#020d3d', GradientType=1 );
+	border-radius: 6px;
+}
+
+/*
+#templatemo_content_area img {
+	
+	float: right;
+	margin: 0px 5px 5px 5px;
+	padding: 0;
+
+}
+*/
+
+#reset_pwd .button {
+	background: url(images/submit.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#reset_pwd .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#reset_pwd .inputtext {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 125px;
+	outline: none;
+}
+
+
+
+#templatemo_right_content_bottom {
+	background: rgba(255,255,255,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(94,150,168,1) 0%, rgba(2,13,61,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(94,150,168,1)), color-stop(100%, rgba(2,13,61,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(94,150,168,1) 0%, rgba(2,13,61,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(94,150,168,1) 0%, rgba(2,13,61,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(94,150,168,1) 0%, rgba(2,13,61,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(94,150,168,1) 0%, rgba(2,13,61,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#020d3d', GradientType=1 );
+	float: right;
+	width: 100%;
+	height: 68px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#templatemo_right_content_bottom a{
+
+	text-decoration: none;
+	color: #fff;
+
+}
+
+#templatemo_right_content_bottom a:hover {
+
+	text-decoration: underline;
+	color: #fff;
+
+}
+
+.clear_with_height {
+
+	clear: both;
+	height: 1px;
+
+}
+
+
+
+/* For the Pop-up dialog box  */
+
+#backgroundPopup {
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+}
+#toPopup {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #62c2ff;
+    border-radius: 7px 7px 7px 7px;
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    left: 20%;
+    margin-left: -120px;
+    position: fixed;
+    top: 5%;
+    width: 800px;
+	height: 500px;
+    z-index: 2;
+}
+div.loader {
+    background: url(images/loading.gif) no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 9999;
+    top: 34%;
+    left: 50%;
+    position: absolute;
+    margin-left: -10px;
+}
+div.close {
+    background: url(images/closebox.png) no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -27px;
+    top: -24px;
+    width: 30px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content {
+    margin: 4px 7px;
+    /* remove this comment if you want scroll bar
+    overflow-y:scroll;
+    height:200px
+    */
+}
+/* End For the Pop-up dialog box  */
+
+/* Archived mails inbox listing style*/
+#tdinboxmsg a{
+
+        text-decoration: none;
+        color: black;
+
+}
+
+#tdinboxmsg a:hover {
+
+        text-decoration: underline;
+        color: black;
+
+}
+
+#nextprev {
+
+        text-decoration: none;
+        color: black;
+		font-family:Verdana, Geneva, sans-serif;
+		font-size: 11px;
+		
+}
+
+#nextprev a {color: #00F; text-decoration:none; }
+#nextprev a:hover {color: #006; text-decoration:none; }
+
+
+#backgroundPopup_msg {
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+}
+
+
+div#popup_contentarchive {
+    margin: 4px 7px;
+    /* remove this comment if you want scroll bar*/
+    overflow-y:scroll;
+    height: 98%;
+    width: auto;
+}
+
+#toPopup_contentarchive {
+    font-family: "arial,sans-serif";
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #62c2ff;
+    border-radius: 3px 3px 3px 3px;
+    display: none;
+    font-size: 14px;
+    left: 30%;
+    position: fixed;
+    top: 10%;
+    width: 800px;
+    z-index: 2;
+    height: 80%; 
+}
+
+#msg_display {
+	width: 700px;
+	border: 0;
+	font-size:14px; 
+	color:#333333; 
+	border-width: 1px; 
+	border-color: #999999; 
+	border-collapse: collapse; 
+	text-align: left;
+}
+
+#msg_display td {
+	border-width: 1px; 
+	padding: 8px; 
+	border-style: solid; 
+	border-color: black;	
+}
+/* End Archived mails inbox listing style*/
+
+.button1 {
+	background: url(images/retrive_details.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 130px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+div#div_reports .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+table.tbl1, table.tbl1 tbody, table.tbl1 thead, table.tbl1 tr, table.tbl1 th, table.tbl1 td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.tbl1
+{
+	width: 100%;
+	
+}
+
+table.tbl1 thead
+{
+	background: #A3C2EA url(images/tbl_head_bg.png) repeat-x scroll 0 0;
+	color: #333;
+	width: 100%;
+	font-weight:normal;
+}
+
+table.tbl1 tbody
+{
+	width: 100%;
+}
+
+table.tbl1 tr td,
+table.tbl1 tr th
+{
+	margin: 0;
+	padding: 4px 0;
+	text-align:center;
+}
+
+table.tbl1 tr td
+{
+	text-align: center;
+	color: #444;
+}
+
+table.tbl1 tbody tr.alt td
+{
+	background-color: #e4ecf7;
+}
+
+table.tbl1 tr.over td,
+table.tbl1 tbody tr.alt.over td
+{
+	background-color: #bcd4ec;
+	color: #000;
+}
+
+
+table.tbl1  .button_del
+{
+	background: url(images/templatemo_delete_user.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 76px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+.button_remove
+{
+	background: url(images/templatemo_button_remove.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 76px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.button_edit
+{
+	background: url(images/templatemo_button_edit.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 60px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+table.tbl1  .button_rst_pswd
+{
+	background: url(images/templatemo_rst_pwd.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 103px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+td.view_btscls
+{
+	font: 12px tahoma, arial, sans-serif; 
+	text-align:middle; 
+	padding:15px 10px 5px 10px; 
+	border-bottom:1px solid #eee;
+	max-width: 210px;
+	}
+	
+#bts_input .inputtext {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 25px;
+	outline: none;
+}
+
+
+.button_bts {
+	background: url(images/save_and_continue.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 133px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+.button_update {
+	background: url(images/templatemo_button_update.jpg) no-repeat; 
+	border: none;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 60px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	border-radius: 3px;
+}
+
+	.TFtable td{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: #dae5f4;
+	}
+
+
+/* popup_box DIV-Styles In Resubmission List Page*/
+#popup_box { 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:300px;  
+	width:600px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#popup_box_registration { 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:90%;  
+	width:80%;  
+	background:#FFFFFF;  
+	left: 100px;
+	top: 30px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#popup_box_rejection { 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:300px;  
+	width:600px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#PopupBox_manage_submission{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:150px;  
+	width:600px;  
+	background:#FFFFFF;  
+	left: 500px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+#popup_box_ao_status{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:400px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#popup_box_chart{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:90%;  
+	width:90%;  
+	background:#FFFFFF;  
+	left: 2%;
+	top: 5%;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+#popup_box_chart1{ 
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:90%;  
+	width:60%; 
+	opacity: 0.0; 
+	left: 2%;
+	top: 5%;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#popup_box_add_exch{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:400px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+#popup_box_new_mission{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:450px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+#popup_box_edit_mission{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:400px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+#popup_box_exch_rate{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:400px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#reset_pwd_div{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:400px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+
+#custom{ 
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:50px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 450px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#PopupBox_ao_msg{
+display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:100px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 450px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+
+#popup_box_token_pending{
+	display:none; /* Hide the DIV */
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6 */  
+	height:300px;  
+	width:700px;  
+	background:#FFFFFF;  
+	left: 300px;
+	top: 150px;
+	z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+	margin-left: 15px;  
+	border-radius : 15px;
+	/* additional features, can be omitted */
+	border:1px groove #999999;  	
+	padding:15px;  
+	font-size:12px;  
+	-moz-box-shadow: 0 0 10px #999999;
+	-webkit-box-shadow: 0 0 10px #999999;
+	box-shadow: 0 0 10px #999999;
+	
+}
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose {
+	right:5px; 
+	top:-10px;
+	position:absolute;
+	width: 10px;
+	height: 10px;  
+}
+
+.modalOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.3); /* black semi-transparent */
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+.custom-file-input {
+  color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+/* For response display in Inscan page */
+div.scrollable {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}

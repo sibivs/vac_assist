@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="admission_officer.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="appointment_details.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="appointment_details01.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="appointments - Copy.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="appointments.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="approvals.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="biometric.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980828322839305" remote="131980828460000000" Dst="0" />
+<file name="bts.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="cash_tally_sheet.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="checkAndAlert_autojob.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="checkAndAlert_autojob_oyster_stock.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="checkAndAlert_autojob_tee_stock.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="checkAndAlert_passport_20days.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="checkPendingToken.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="confirm_passport_delivery.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="db_connect.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_consolidated_report.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_daily_report.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_daily_sales.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_delivery_report.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_inscan_passports.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_outscan_passports.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_reconciliation_list.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_reconciliation_report.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="display_tee_report.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="download.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="edit_outscanned.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="header.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="login.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="mail_receivers.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="manage_system.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="manage_tees.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="oyster_stock.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="passport_deliver.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="passport_delivery_reports.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="php_func.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="reconciliation.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="rectification.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="registration.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="reports_chart.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="resubmission_lists.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="sales_product_wise.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="sales_staff_wise.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="search.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="upload_inscan_report.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="upload_outscan_report.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="users.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="index.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="README.md" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="bug_fixes.md" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980813330000000" remote="131980813330000000" Dst="0" />
+<file name=".htaccess" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+<file name="add_staff.php" server="192.168.73.128//usr/share/nginx/html/vac_assist/" local="131980812100000000" remote="131980812100000000" Dst="0" />
+</dwsync>

@@ -1,0 +1,38 @@
+<chart>
+	<axis_category  size='12' color='ff8844'  orientation='diagonal_down'/>
+	<axis_ticks value_ticks='true' category_ticks='true' major_thickness='2' minor_thickness='1' minor_count='1' major_color='222222' minor_color='222222' position='centered' />
+	<axis_value  size='10' color='ffffff' alpha='100' steps='10' prefix='' suffix='' decimals='0' separator='' show_min='false'/>
+	<chart_label  color='0D0102' alpha='90' size='10' position='center' prefix='' suffix='' decimals='0' separator='' as_percentage='false' />
+	<chart_border color='000000' top_thickness='0' bottom_thickness='1' left_thickness='3' right_thickness='0' /><chart_data><row><null/><string>2014</string><string>2015</string><string>2016</string></row><row><string></string><number tooltip='30' shadow='low'>30</number><number tooltip='19' shadow='low'>19</number></row><row><string></string><number tooltip='1' shadow='low'>1</number><row><string></string><number tooltip='21' shadow='low'>21</number><number tooltip='3' shadow='low'>3</number></row><row><string></string><number tooltip='3' shadow='low'>3</number><row><string></string><number tooltip='1813' shadow='low'>1813</number><number tooltip='829' shadow='low'>829</number><number tooltip='116' shadow='low'>116</number></row><row><string></string><number tooltip='2265' shadow='low'>2265</number><number tooltip='3296' shadow='low'>3296</number><number tooltip='59' shadow='low'>59</number></row><row><string></string><number tooltip='63' shadow='low'>63</number><number tooltip='80' shadow='low'>80</number><number tooltip='1' shadow='low'>1</number></row><row><string></string><number tooltip='104' shadow='low'>104</number><number tooltip='127' shadow='low'>127</number><number tooltip='8' shadow='low'>8</number></row><row><string></string><number tooltip='4' shadow='low'>4</number><row><string></string><number tooltip='0' shadow='low'>0</number><row><string></string><number tooltip='4992' shadow='low'>4992</number><number tooltip='5027' shadow='low'>5027</number><number tooltip='169' shadow='low'>169</number></row><row><string></string><number tooltip='153' shadow='low'>153</number><number tooltip='475' shadow='low'>475</number><number tooltip='1' shadow='low'>1</number></row><row><string></string><number tooltip='4' shadow='low'>4</number></chart_data><chart_grid_h alpha='10' thickness='1' type='dashed' />
+<chart_guide horizontal='true' vertical='true' thickness='1' alpha='25' type='dashed' text_h_alpha='0' text_v_alpha='0' />
+	<chart_note type='arrow' size='13' color='004444' alpha='75' x='-10' y='-30' background_color_1='FF4400' background_alpha='75' shadow='low' />
+	<chart_rect bevel='bg' shadow='high' x='95' y='90' width='840' height='200' positive_color='eeeeff' negative_color='dddddd' positive_alpha='100' negative_alpha='100'  corner_tl='0' corner_tr='0' corner_br='0' corner_bl='0' />
+	<chart_transition type='scale' delay='.5' duration='1' order='series' />
+	<chart_type>Line</chart_type>
+	
+	<draw>
+		
+		<text  color='000000' alpha='100' rotation='-90' size='16' x='7' y='230' width='300' height='50' h_align='center' v_align='middle'>Total</text>
+		<text  transition='dissolve' delay='.5' duration='0.5' color='000033'  size='16' x='90' y='213' width='300' height='180' h_align='center' v_align='bottom'>Value Added Services</text>
+		<text  transition='dissolve' delay='.5' duration='0.5' color='000033'  size='16' x='220' y='-143' width='700' height='180' h_align='center' v_align='bottom'>Value Added Services Year On Year Comparison</text>
+	</draw>
+	<filter>
+		<shadow id='high' distance='5' angle='45' alpha='35' blurX='10' blurY='10' />
+		<shadow id='low' distance='2' angle='45' alpha='35' blurX='5' blurY='5' />
+		<bevel id='bg' angle='45' blurX='50' blurY='50' distance='10' highlightalpha='100' highlightColor='ffffff' shadowAlpha='10' inner='true' />
+		<bevel id='blue' angle='-80' blurX='0' blurY='30' distance='20' highlightColor='ffffff' highlightalpha='100' shadowColor='000088' shadowAlpha='25' inner='true' />
+		<bevel id='gray' angle='-80' blurX='0' blurY='30' distance='20' highlightColor='ffffff' highlightAlpha='25' shadowColor='000000' shadowAlpha='20' inner='true' />
+	</filter>
+	
+	<legend shadow='low' x='75' y='57' width='360' height='20' margin='5' fill_color='000066' fill_alpha='8' line_alpha='0' line_thickness='0' size='12' color='333355' alpha='90' />
+<tooltip color='FFFFFF' alpha='90' background_color_1='8888FF' background_alpha='90' shadow='medium' />
+
+	<series_color>
+		<color>862d59</color>
+		<color>768bb3</color>
+		<color>73b82e</color>
+		<color>666666</color>
+		<color>00b32d</color>
+	</series_color>
+	<series set_gap='-100' bar_gap='15' />
+</chart>

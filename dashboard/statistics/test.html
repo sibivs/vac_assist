@@ -1,0 +1,24 @@
+<canvas id="cvs" width="600" height="250">[No canvas support]</canvas>
+<script src="library/RGraph.common.core.js"></script>
+<script src="library/RGraph.common.key.js"></script>
+<script src="library/RGraph.pie.js"></script>
+<script type="text/javascript">
+      var data = [4, 8];
+          var key  = ['a','b'];
+
+          var pie = new RGraph.Pie({
+            id: 'cvs',
+            data: data,
+            options: {
+                textAccessible: false,
+                strokestyle: 'transparent',
+                shadow: false,
+                radius: 50,
+                key: ['Richard','Geoffrey'],
+                keyPositionGraphBoxed: false,
+                keyPositionX: 300 - 50,
+                keyPositionY: 180
+            }
+          }).draw();
+</script>
+

@@ -1,0 +1,133 @@
+<HTML>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script language="javascript"> DetectFlashVer = 0; </script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+var requiredMajorVersion = 10;
+var requiredMinorVersion = 0;
+var requiredRevision = 45;
+var GET = {};
+var query = window.location.search.substring(1).split("&");
+for (var i = 0, max = query.length; i < max; i++)
+{
+    if (query[i] === "") // check for trailing & with no param
+        continue;
+
+    var param = query[i].split("=");
+    GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
+}
+
+-->
+</script>
+<BODY bgcolor="#FFFFFF">
+<div style="display:inline;">
+<script language="JavaScript" type="text/javascript">
+<!--
+if (AC_FL_RunContent == 0 || DetectFlashVer == 0) {
+	alert("This page requires AC_RunActiveContent.js.");
+} else {
+	var milliseconds = (new Date).getTime();
+	if(GET['option'] =="all")
+	{
+		var width = "1050";
+		var height = '450';
+	}
+	else
+	{
+		var width = "1050";
+		var height = '400';
+	}
+	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+	if(hasRightVersion) { 
+		AC_FL_RunContent(
+			'codebase', 'resources/swflash.cab#version=10,0,45,2',
+			'width', width,
+			'height', height,
+			'scale', 'noScale',
+			'salign', 'TL',
+			'bgcolor', '#FFFFF',
+			'wmode', 'opaque',
+			'movie', 'charts',
+			'src', 'charts',
+			'FlashVars', 'library_path=charts_library&xml_source=submission_yearly_bar.xml?unique_id='+milliseconds, 
+			'id', 'my_chart',
+			'name', 'my_chart',
+			'menu', 'true',
+			'allowFullScreen', 'true',
+			'allowScriptAccess','sameDomain',
+			'quality', 'high',
+			'align', 'middle',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'play', 'true',
+			'devicefont', 'false'
+			); 
+	} else { 
+		var alternateContent = 'This content requires the Adobe Flash Player. '
+		+ '<u><a href=http://www.macromedia.com/go/getflash/>Get Flash</a></u>.';
+		document.write(alternateContent); 
+	}
+}
+// -->
+</script>
+</div>
+<hr>
+<div style="display:inline;">
+<script language="JavaScript" type="text/javascript">
+<!--
+if (AC_FL_RunContent == 0 || DetectFlashVer == 0) {
+	alert("This page requires AC_RunActiveContent.js.");
+} else {
+	var milliseconds = (new Date).getTime();
+		if(GET['option'] =="all")
+	{
+		var width = "1050";
+		var height = '450';
+	}
+	else
+	{
+		var width = "1050";
+		var height = '400';
+	}
+
+	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+	if(hasRightVersion) { 
+		AC_FL_RunContent(
+			'codebase', 'resources/swflash.cab#version=10,0,45,2',
+			'width', width,
+			'height', height,
+			'scale', 'noScale',
+			'salign', 'TL',
+			'bgcolor', '#FFFFFF',
+			'wmode', 'opaque',
+			'movie', 'charts',
+			'src', 'charts',
+			'FlashVars', 'library_path=charts_library&xml_source=submission_yearly_growth.xml?unique_id='+milliseconds, 
+			'id', 'my_chart1',
+			'name', 'my_chart1',
+			'menu', 'true',
+			'allowFullScreen', 'true',
+			'allowScriptAccess','sameDomain',
+			'quality', 'high',
+			'align', 'middle',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'play', 'true',
+			'devicefont', 'false'
+			); 
+	} else { 
+		var alternateContent = 'This content requires the Adobe Flash Player. '
+		+ '<u><a href=http://www.macromedia.com/go/getflash/>Get Flash</a></u>.';
+		document.write(alternateContent); 
+	}
+}
+// -->
+</script>
+
+</div>
+
+<noscript>
+	<P>This content requires JavaScript.</P>
+</noscript>
+
+</BODY>
+</HTML>

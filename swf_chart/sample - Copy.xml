@@ -1,0 +1,74 @@
+<chart>
+	<axis_category  size='12' color='ff8844' />
+	<axis_ticks value_ticks='true' category_ticks='true' major_thickness='2' minor_thickness='1' minor_count='1' major_color='222222' minor_color='222222' position='centered' />
+	<axis_value  size='10' color='ffffff' alpha='100' steps='6' prefix='' suffix='' decimals='0' separator='' show_min='true' />
+
+	<chart_border color='000000' top_thickness='0' bottom_thickness='1' left_thickness='3' right_thickness='0' />
+	<chart_data>
+		<row>
+			<null/>
+			<string>Premium</string>
+			<string>Priority</string>
+			<string>Priority Settlement</string>
+			<string>Premium Online</string>
+			<string>Priority Online</string>
+			<string>Priority Settlement Online</string>
+		</row>
+		<row>
+			<string>2014</string>
+			<number shadow='low'>25</number>
+			<number shadow='low'>100</number>
+			<number shadow='low'>150</number>
+			<number shadow='low'>25</number>
+			<number shadow='low'>100</number>
+			<number shadow='low'>150</number>
+		</row>
+		<row>
+			<string>2015</string>
+			<number shadow='low'>35</number>
+			<number shadow='low'>80</number>
+			<number shadow='low'>80</number>
+			<number shadow='low'>25</number>
+			<number shadow='low'>100</number>
+			<number shadow='low'>150</number>
+		</row>
+		<row>
+			<string>2016</string>
+			<number shadow='low'>10</number>
+			<number shadow='low'>55</number>
+			<number shadow='low'>55</number>
+			<number shadow='low'>25</number>
+			<number shadow='low'>100</number>
+			<number shadow='low'>150</number>
+		</row>
+	</chart_data>
+	<chart_grid_h alpha='20' color='000000' thickness='1' type='dashed' />
+	<chart_grid_v alpha='20' color='000000' thickness='1' />
+	<chart_label  color='ffffff' alpha='90' size='10' position='center' prefix='' suffix='' decimals='0' separator='' as_percentage='false' />
+	<chart_note type='balloon' color='004444' alpha='75' size='11' x='0' y='-30' offset_x='-20' background_color_1='ff4400' background_color_2='ffff88' background_alpha='75' shadow='high' />
+	<chart_rect bevel='bg' x='190' y='70' width='620' height='330' positive_color='ffeebb' negative_color='ff0000' positive_alpha='80' negative_alpha='20' corner_tl='0' corner_tr='0' corner_br='0' corner_bl='0' />
+	<chart_transition type='scale' delay='1' duration='1' order='series' />
+	<chart_type>bar</chart_type>
+
+	<draw>
+		<rect shadow='high2' layer='background' transition='dissolve' delay='.5' duration='0.5' x='190' y='70' width='520' height='230' corner_tl='0' corner_tr='0' corner_br='0' corner_bl='0' />
+		<text  transition='dissolve' delay='.5' duration='0.5' color='000022'  size='20' x='90' y='213' width='300' height='240' h_align='center' v_align='bottom'>Total</text>
+		<text shadow='high' color='000022' alpha='100' rotation='-90' size='20' x='-50' y='270' width='300' height='100' h_align='center' v_align='bottom'>Year</text>
+	</draw>
+	<filter>
+		<bevel id='bg' angle='45' blurX='50' blurY='50' distance='50' highlightAlpha='25' shadowAlpha='15' type='inner' /> 
+		<shadow id='high' distance='5' angle='45' alpha='35' blurX='15' blurY='15' />
+		<shadow id='high2' knockout='true' distance='5' angle='45' alpha='35' blurX='15' blurY='15' />
+		<shadow id='low' distance='2' angle='45' alpha='100' blurX='5' blurY='5' />
+	</filter>
+
+	<legend transition='dissolve' shadow='low' x='358' y='25' width='320' height='5' margin='5' fill_color='ffffff' fill_alpha='10' line_thickness='0' bullet='circle' size='13' color='ffffff' alpha='65' />
+
+	<series_color>
+		<color>4e627c</color>
+		<color>c89341</color>
+		<color>4c6b41</color>
+	</series_color>
+	<series set_gap='20' bar_gap='15' />
+
+</chart>

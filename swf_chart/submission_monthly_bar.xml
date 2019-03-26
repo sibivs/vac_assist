@@ -1,0 +1,47 @@
+<chart><license>LTA9-KHS7V.O.945CWK-2XOI1X0-7L</license><axis_category  size='12' color='000000' />
+		<axis_ticks value_ticks='true' category_ticks='true' major_thickness='2' minor_thickness='1' minor_count='1' major_color='222222' minor_color='222222' position='centered' />
+		<axis_value  size='12' color='000000' alpha='100' steps='10' prefix='' suffix='' decimals='0' separator='' show_min='false'/>
+		<chart_label  color='000000' alpha='99' size='10' position='center' prefix='' suffix='' decimals='0' separator='' as_percentage='false' />
+		<chart_border color='000000' top_thickness='0' bottom_thickness='1' left_thickness='1' right_thickness='0' /><chart_data><row><null/><string>January</string><string>February</string><string>March</string><string>April</string><string>May</string><string>June</string><string>July</string><string>August</string><string>September</string><string>October</string><string>November</string><string>December</string></row><row><string>Region A</string><number bevel='data' tooltip='2017 January Total - 1001' shadow='low'>1001</number><number bevel='data' tooltip='2017 February Total - 911' shadow='low'>911</number><number bevel='data' tooltip='2017 March Total - 1169' shadow='low'>1169</number><number bevel='data' tooltip='2017 April Total - 1226' shadow='low'>1226</number><number bevel='data' tooltip='2017 May Total - 2116' shadow='low'>2116</number><number bevel='data' tooltip='2017 June Total - 1544' shadow='low'>1544</number><number bevel='data' tooltip='2017 July Total - 0' shadow='low'>0</number><number bevel='data' tooltip='2017 August Total - 0' shadow='low'>0</number><number bevel='data' tooltip='2017 September Total - 0' shadow='low'>0</number><number bevel='data' tooltip='2017 October Total - 0' shadow='low'>0</number><number bevel='data' tooltip='2017 November Total - 0' shadow='low'>0</number><number bevel='data' tooltip='2017 December Total - 1' shadow='low'>1</number></row></chart_data><chart_grid_h alpha='10' thickness='1' type='dashed' />
+		<chart_note type='arrow' size='13' color='004444' alpha='75' x='-10' y='-30' background_color_1='FF4400' background_alpha='75' shadow='low' />
+		<chart_rect bevel='bg' shadow='high' x='225' y='90' width='400' height='240' positive_color='eeeeff' negative_color='dddddd' positive_alpha='100' negative_alpha='100'  corner_tl='0' corner_tr='0' corner_br='0' corner_bl='0' />
+		<chart_guide horizontal='true' vertical='true' thickness='1' alpha='25' type='dashed' text_h_alpha='0' text_v_alpha='0' />
+		<chart_transition type='scale' delay='.5' duration='1' order='series' />
+	<chart_type>bar</chart_type>
+	<draw>
+		<text  color='FA051D'  x='920' y='40' size='14'>Toggle Full Screen</text>
+		<text  transition='dissolve' delay='.5' duration='0.5' color='000033'  size='12' x='220' y='-123' width='700' height='180' h_align='center' v_align='bottom'>(** Data availability from January 2015 onwards)</text>
+		<text  color='000000' alpha='100' rotation='-90' size='16' x='135' y='330' width='300' height='50' h_align='center' v_align='middle'>Month</text>
+		<text  transition='dissolve' delay='.5' duration='0.5' color='000033'  size='16' x='220' y='-143' width='700' height='180' h_align='center' v_align='bottom'>Application Submission Month On Month Comparison -All Months In 2017</text>
+		<text  transition='dissolve' delay='.5' duration='0.5' color='000033'  size='16' x='190' y='253' width='300' height='130' h_align='center' v_align='bottom'>Total sale</text>
+	</draw>
+	<filter>
+		<bevel id='data' angle='90' blurX='10' blurY='10' distance='5' highlightAlpha='10' shadowAlpha='20' type='full' />
+		<bevel id='small' angle='45' blurX='2' blurY='2' distance='1' highlightAlpha='35' highlightColor='ffffff' shadowColor='000000' shadowAlpha='35' type='inner' />   
+		<shadow id='high' distance='5' angle='45' alpha='35' blurX='15' blurY='15' />
+		<shadow id='low' distance='2' angle='45' alpha='100' blurX='5' blurY='5' />
+	</filter>
+
+	<legend layout='hide' />
+	<tooltip color='000000'
+            alpha='75'
+            size='11'
+            background_color_1='ff4400' 
+            background_color_2='8888ff' 
+            background_alpha='90'
+            shadow='low'
+            />
+	<link>
+			 <area x='910' 
+				y='35' 
+				width='136'  
+				height='35' 
+				target='toggle_fullscreen'
+				/>
+	
+	   </link>
+		<series_color>
+		<color>CBD0D1</color>
+	</series_color>
+
+</chart>

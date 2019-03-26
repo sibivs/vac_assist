@@ -1,0 +1,795 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+html {
+	background: #FFFFF;
+}
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	width: 100%;
+	height: 100%;
+	display: table;
+	float: middle;
+}
+
+a {color: #1dd678; text-decoration:none; }
+
+a:hover { color: #18ac61; text-decoration:underline; }
+
+#templatemo_container {
+	width: 100%;
+	margin: auto;
+	height: 500px;
+}
+
+#templatemo_header {
+	width: 100%;
+	height: 110px;
+	background:url(images/templatemo_header.jpg) no-repeat center ;
+	margin: 0;
+	padding: 0;
+}
+/* Login Form */
+#templatemo_login {
+	float: middle;
+	width: 558px;
+	height: 350px;
+	margin: 5% auto;
+	text-align:center;
+	background-image:url(images/templatemo_login-bannar.jpg);
+	background-repeat:no-repeat;
+	border-radius: 1em;
+}
+#templatemo_login label {
+	color: #37b2f8;
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 5px 0 0;
+	padding: 0;
+	display: block;
+	float: middle;
+}
+
+
+#templatemo_userinfo {
+        float: right;
+        width: 399px;
+        height: 15px;
+        margin: 0 75px 0 0;
+}
+#templatemo_userinfo label {
+        color: #37b2f8;
+        font-family: Tahoma;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 5px 5px 0 0;
+        padding: 0;
+        display: block;
+        float: right;
+}
+
+
+.textfield {
+	width: 140px;
+	height: 25px;
+	background: url(images/templatemo_textbox.gif) no-repeat;
+	border: none;
+	color: #0f62b1;
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 10px 5px 0 0;
+	padding: 5px 5px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+
+#templatemo_login .button {
+	background: url(images/templatemo_button.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+#templatemo_login .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_login .textfield {
+	width: 140px;
+	height: 25px;
+	background: url(images/templatemo_textbox.gif) no-repeat;
+	border: none;
+	color: #0f62b1;
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 10px 5px 0 0;
+	padding: 5px 5px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+#counterdelivery .textfield {
+	width: 140px;
+	height: 25px;
+	background: url(images/templatemo_textbox.gif) no-repeat;
+	border: none;
+	color: #0f62b1;
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 10px 5px 0 0;
+	padding: 5px 5px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+
+#counterdelivery .button-a {
+	background: url(images/submit.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#counterdelivery .button-reset-a {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#counterdelivery .err_msg {
+	color: red;
+	visibility:hidden;
+}
+
+#rectification .err_msg {
+	color: red;
+	visibility:hidden;
+}
+
+
+#counterdelivery .inputtext {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 225px;
+	outline: none;
+}
+
+
+#counterdelivery-verify .button_a {
+	background: url(images/deliver_passport.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 116px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#counterdelivery-verify .button-reset_a {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+/*End Of Log In*/
+
+#templatemo_content {
+	
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+
+* html #templatemo_content {
+	
+	margin-top: -2px;
+
+}
+
+#templatemo_left_content {
+	
+	float: left;
+	display: inline;
+	margin-left: 80px;
+
+}
+
+/* Menu */
+
+.templatemo_menu {
+
+	float: left;
+	width: 211px;
+	margin: 30px 35px 35px 0;
+	padding: 0;
+	display: inline;
+
+}
+
+.templatemo_menu ul {
+
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 211px;
+
+}
+
+.templatemo_menu li a {
+
+	display: block;
+	height: 27px;
+	padding: 7px 0 0 50px;
+	margin: 5px 0 0 0;
+	color: #fff;
+	font-weight: bold;
+	background: url(images/templatemo_menu.gif) no-repeat;	
+	text-decoration:none;
+
+}
+
+.templatemo_menu li a:hover, .templatemo_menu li .current {
+
+	background: url(images/templatemo_menu_current.gif) no-repeat;	
+	text-decoration:none;
+	color: #00FFFF;
+
+}
+/* End of Menu */
+
+.templatemo_section {
+
+	float: right;
+	background: url(images/templatemo_left_section_button.jpg) bottom center no-repeat;
+	width: 300px;
+	margin: 0 30px 5px 0;
+	padding: 0;
+	display: inline;
+
+}
+
+
+* html .templatemo_section {
+	margin: 0;
+}
+
+.templatemo_icon_home {
+	
+	background: url(images/templatemo_icon_home.png) no-repeat top left;
+	width: 100%;
+	min-height: 95px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	
+}
+
+.templatemo_section h1{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #37b2f8;
+	margin: 0 0 0 85px;
+	padding: 0;
+}
+
+.templatemo_section p{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #94d8ff;
+	text-align: justify;
+	margin: 0 30px 0 85px;
+	padding: 0;
+	
+}
+.templatemo_icon_cube {
+	
+	background: url(images/templatemo_icon_cube.png) no-repeat top left;
+	width: 100%;
+	min-height: 109px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	
+}
+
+.templatemo_icon_tick {
+	
+	background: url(images/templatemo_icon_tick.png) no-repeat top left;
+	width: 100%;
+	min-height: 102px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	
+}
+
+.templatemo_section_bottom_line {
+	
+	clear: both;
+	background: url(images/templatemo_left_bottom.jpg) no-repeat center;
+	height: 1px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+#templatemo_right_content {
+	
+	float: left;
+	margin: 10px;
+	padding: 10px 0 0 0;
+	height:100%;
+	width: auto;
+	
+}
+
+
+#templatemo_right_content #templatemo_content_area {
+
+	width: 100%;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+#templatemo_content_area .templatemo_title {
+	
+	width: 100%;
+	height: 15px;
+	color: #62c2ff;
+	background: url(images/templatemo_title_line.jpg) bottom repeat-x;
+	font-family: Tahoma;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 30px 0 0 0;
+	padding: 0 0 15px 0;
+	text-align:center;
+
+}
+
+
+#templatemo_content_area .inputtext {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 225px;
+	outline: none;
+}
+
+
+
+
+#templatemo_content_area p {
+	
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	margin: 6px 0 0 0;
+	padding: 0;
+	
+}
+
+#templatemo_content_area .thumbs {
+	
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 0 ;
+
+}
+
+#templatemo_content_area .thumbs img {
+	margin: 0 4px 0 4px;
+	padding: 0;
+}
+
+#templatemo_content_area .tablestyle {
+                
+	font-family: Arial;
+        font-size: 12px;
+        color: #62c2ff;
+        text-align: justify;
+        margin: 15px 0 0 0;
+        padding: 0;
+}
+
+
+#templatemo_content_area .button {
+	background: url(images/templatemo_button_add.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#templatemo_content_area .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#templatemo_right_content #templatemo_content_area #PageHeading {
+	padding-top: 2px;
+	width: 960px;
+	height: 35px;
+	background-image:url(images/PageHeader.jpg);
+	border-radius: 6px;
+}
+
+/*
+#templatemo_content_area img {
+	
+	float: right;
+	margin: 0px 5px 5px 5px;
+	padding: 0;
+
+}
+*/
+
+#reset_pwd .button {
+	background: url(images/submit.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#reset_pwd .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#reset_pwd .inputtext {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 125px;
+	outline: none;
+}
+
+
+
+#templatemo_right_content_bottom {
+	
+	float: right;
+	background: url(images/templatemo_left_bottom1.jpg) no-repeat center;
+	width: 100%;
+	height: 68px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#templatemo_right_content_bottom a{
+
+	text-decoration: none;
+	color: #fff;
+
+}
+
+#templatemo_right_content_bottom a:hover {
+
+	text-decoration: underline;
+	color: #fff;
+
+}
+
+.clear_with_height {
+
+	clear: both;
+	height: 1px;
+
+}
+
+
+
+/* For the Pop-up dialog box  */
+
+#backgroundPopup {
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+}
+#toPopup {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #62c2ff;
+    border-radius: 7px 7px 7px 7px;
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    left: 20%;
+    margin-left: -120px;
+    position: fixed;
+    top: 5%;
+    width: 800px;
+	height: 500px;
+    z-index: 2;
+}
+div.loader {
+    background: url(images/loading.gif) no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 9999;
+    top: 34%;
+    left: 50%;
+    position: absolute;
+    margin-left: -10px;
+}
+div.close {
+    background: url(images/closebox.png) no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -27px;
+    top: -24px;
+    width: 30px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content {
+    margin: 4px 7px;
+    /* remove this comment if you want scroll bar
+    overflow-y:scroll;
+    height:200px
+    */
+}
+/* End For the Pop-up dialog box  */
+
+/* Archived mails inbox listing style*/
+#tdinboxmsg a{
+
+        text-decoration: none;
+        color: black;
+
+}
+
+#tdinboxmsg a:hover {
+
+        text-decoration: underline;
+        color: black;
+
+}
+
+#nextprev {
+
+        text-decoration: none;
+        color: black;
+		font-family:Verdana, Geneva, sans-serif;
+		font-size: 11px;
+		
+}
+
+#nextprev a {color: #00F; text-decoration:none; }
+#nextprev a:hover {color: #006; text-decoration:none; }
+
+
+#backgroundPopup_msg {
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+}
+
+
+div#popup_contentarchive {
+    margin: 4px 7px;
+    /* remove this comment if you want scroll bar*/
+    overflow-y:scroll;
+    height: 98%;
+    width: auto;
+}
+
+#toPopup_contentarchive {
+    font-family: "arial,sans-serif";
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #62c2ff;
+    border-radius: 3px 3px 3px 3px;
+    display: none;
+    font-size: 14px;
+    left: 30%;
+    position: fixed;
+    top: 10%;
+    width: 800px;
+    z-index: 2;
+    height: 80%; 
+}
+
+#msg_display {
+	width: 700px;
+	border: 0;
+	font-size:14px; 
+	color:#333333; 
+	border-width: 1px; 
+	border-color: #999999; 
+	border-collapse: collapse; 
+	text-align: left;
+}
+
+#msg_display td {
+	border-width: 1px; 
+	padding: 8px; 
+	border-style: solid; 
+	border-color: black;	
+}
+/* End Archived mails inbox listing style*/
+
+div#div_reports .button1 {
+	background: url(images/retrive_details.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 130px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+div#div_reports .button-reset {
+	background: url(images/templatemo_button-cancel.jpg) no-repeat; 
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 26px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 63px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}

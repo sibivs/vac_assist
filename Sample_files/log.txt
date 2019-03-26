@@ -1,0 +1,6 @@
+5,12
+select m.id as id, m.mission_name as mission_name from missions m , users u where u.user_id='undefined' and u.mission_id=m.id ORDER BY m.mission_name ASC
+select m.id as id, m.mission_name as mission_name from missions m , users u where u.user_id='undefined' and u.mission_id=m.id ORDER BY m.mission_name ASC
+select m.id as id, m.mission_name as mission_name from missions m , users u where u.user_id='9' and u.mission_id=m.id ORDER BY m.mission_name ASC
+select m.id as id, m.mission_name as mission_name from missions m , users u where u.user_id='20' and u.mission_id=m.id ORDER BY m.mission_name ASC
+select m.id as id, m.mission_name as mission_name from missions m , users u where u.user_id='8' and u.mission_id=m.id ORDER BY m.mission_name ASC
